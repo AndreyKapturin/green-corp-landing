@@ -157,5 +157,16 @@ footer{
     flex-direction: column;
 }
 .footer__links a{
-    margin-bottom: 15px;
+    margin-bottom: 15px;;
+}
+@keyframes rotate{
+    0% {
+        transform: rotate(0);
+      }
+    100% {
+        transform: rotate(360deg);
+      }
+}
+.about_sun-image{
+    animation: rotate 10s linear infinite;
 }
