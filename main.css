@@ -8,6 +8,10 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    position: sticky;
+    background-color: #fff;
+    top: 0;
+    z-index: 1;
 }
 .header__logo{
     height: 30px;
@@ -169,4 +173,5 @@ footer{
 }
 .about_sun-image{
     animation: rotate 10s linear infinite;
+    position: absolute;
 }
