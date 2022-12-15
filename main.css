@@ -175,3 +175,68 @@ footer{
     animation: rotate 10s linear infinite;
     position: absolute;
 }
+/* Планшеты */
+@media (max-width: 1024px){
+    header{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .about{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .form{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    footer{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .about h1{
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .about_panel-image{
+        width: 280px;
+    }
+    .about_sun-image{
+        height: 75px;
+        width: 75px;
+    }
+}
+/* Мобильные устройства */
+@media (max-width: 720px){
+    header{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about{
+        padding: 50px 10px;
+        flex-direction: column-reverse;
+    }
+    .form{
+        padding: 50px 10px;
+    }
+    footer{
+        padding-left: 10px;
+        padding-right: 10px;   
+    }
+    .footer__container{
+        flex-direction: column;
+    }
+    .header__logo{
+        height: 20px;
+    }
+    h1{
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .about_panel-image{
+        width: 280px;
+    }
+    .about_sun-image{
+        height: 75px;
+        width: 75px;
+    }
+}
